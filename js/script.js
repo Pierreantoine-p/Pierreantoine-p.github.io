@@ -8,7 +8,7 @@ function reboursF()
                 minute = document.getElementById("minute"),
                 minute_label = document.getElementById("minute_label"),
                 maintenant = new Date(),
-                finannee = new Date('august 21, 2022 23:59:59');
+                finannee = new Date('September 01, 2022 23:59:59');
  
             let total_secondes = (finannee - maintenant) / 1000;
              
